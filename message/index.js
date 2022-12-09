@@ -1,5 +1,5 @@
 const string = require("../greeting/index");
 const getMessage = (string) => {
-  return "Hello Rahul! Have a Great Day";
+  return `Hello Rahul! ${string}`;
 };
 module.exports = getMessage;
